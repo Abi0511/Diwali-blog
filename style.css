@@ -1,0 +1,76 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #fff8e1, #ffe0b2);
+  color: #4e342e;
+}
+
+header {
+  background-color: #ffcc80;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem;
+  background-color: #fff3e0;
+}
+
+.hero button {
+  padding: 0.5rem 1rem;
+  background-color: #ff9800;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#greeting {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #d84315;
+}
+
+.hidden {
+  display: none;
+}
+
+.posts {
+  padding: 2rem;
+}
+
+.posts article {
+  background-color: #ffe0b2;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.gallery {
+  padding: 2rem;
+  background-color: #fff3e0;
+}
+
+.images {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.images img {
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+footer {
+  background-color: #ffcc80;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
